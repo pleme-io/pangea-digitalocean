@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Digitalocean; module Types; end; end; end; end
+
 # Digitalocean resources
 require_relative 'pangea/resources/digitalocean_app/resource'
 require_relative 'pangea/resources/digitalocean_byoip_prefix/resource'
